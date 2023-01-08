@@ -12,6 +12,8 @@
 		7D99AB6029655CC600C23B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D99AB5F29655CC600C23B4F /* Assets.xcassets */; };
 		7D99AB6329655CC600C23B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D99AB6229655CC600C23B4F /* Preview Assets.xcassets */; };
 		7D99AB6A29675EBF00C23B4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D99AB6929675EBF00C23B4F /* README.md */; };
+		7D99AB91296B653100C23B4F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99AB90296B653100C23B4F /* Question.swift */; };
+		7D99AB93296B682400C23B4F /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99AB92296B682400C23B4F /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		7D99AB5F29655CC600C23B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D99AB6229655CC600C23B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D99AB6929675EBF00C23B4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7D99AB90296B653100C23B4F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7D99AB92296B682400C23B4F /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				7D99AB5B29655CC500C23B4F /* Coding_History_QuizzerApp.swift */,
 				7D99AB5D29655CC500C23B4F /* ContentView.swift */,
+				7D99AB92296B682400C23B4F /* ChoiceTextView.swift */,
 				7D99AB5F29655CC600C23B4F /* Assets.xcassets */,
 				7D99AB6129655CC600C23B4F /* Preview Content */,
+				7D99AB90296B653100C23B4F /* Question.swift */,
 			);
 			path = "Coding History Quizzer";
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D99AB91296B653100C23B4F /* Question.swift in Sources */,
 				7D99AB5E29655CC500C23B4F /* ContentView.swift in Sources */,
+				7D99AB93296B682400C23B4F /* ChoiceTextView.swift in Sources */,
 				7D99AB5C29655CC500C23B4F /* Coding_History_QuizzerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
