@@ -12,6 +12,7 @@ struct Question: Hashable { // Add Hashable Conformance
     var possibleAnswers: [String]
     var correctAnswerIndex: Int
     
+    // static type property to hold the questions
     static var allQuestions = [
         Question(questionText: "Who invented the World Wide Web",
                  possibleAnswers: [
