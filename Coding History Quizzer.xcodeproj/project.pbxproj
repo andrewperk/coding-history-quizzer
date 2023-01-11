@@ -18,6 +18,7 @@
 		7D99ABB5296E998C00C23B4F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99ABB4296E998C00C23B4F /* WelcomeView.swift */; };
 		7D99ABB7296F2D4C00C23B4F /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99ABB6296F2D4C00C23B4F /* GameColor.swift */; };
 		7D99ABB9296F37A500C23B4F /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99ABB8296F37A500C23B4F /* BottomTextView.swift */; };
+		7D99ABBC296F703400C23B4F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99ABBB296F703400C23B4F /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7D99ABB4296E998C00C23B4F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		7D99ABB6296F2D4C00C23B4F /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		7D99ABB8296F37A500C23B4F /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		7D99ABBB296F703400C23B4F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		7D99AB5A29655CC500C23B4F /* Coding History Quizzer */ = {
 			isa = PBXGroup;
 			children = (
+				7D99ABBA296F700C00C23B4F /* ViewModels */,
 				7D99AB97296E12D300C23B4F /* Views */,
 				7D99AB96296E12B500C23B4F /* Models */,
 				7D99AB5B29655CC500C23B4F /* Coding_History_QuizzerApp.swift */,
@@ -103,6 +106,14 @@
 				7D99ABB8296F37A500C23B4F /* BottomTextView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7D99ABBA296F700C00C23B4F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7D99ABBB296F703400C23B4F /* GameViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D99ABBC296F703400C23B4F /* GameViewModel.swift in Sources */,
 				7D99AB91296B653100C23B4F /* Question.swift in Sources */,
 				7D99ABB5296E998C00C23B4F /* WelcomeView.swift in Sources */,
 				7D99AB95296E123E00C23B4F /* Game.swift in Sources */,
