@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct WelcomeView: View {
-    let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
-    let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
     
     var body: some View {
         NavigationView {
             ZStack {
-                mainColor.ignoresSafeArea()
+                GameColor.main.ignoresSafeArea()
                 VStack {
                     Spacer()
                     VStack(alignment: .leading, spacing: 0) {
@@ -25,17 +23,11 @@ struct WelcomeView: View {
                             .padding()
                     }
                     Spacer()
+                    Spacer()
                     NavigationLink(
                         destination: GameView(),
                         label: {
-                            HStack {
-                                Spacer()
-                                Text("Ok, let's begin!")
-                                    .font(.body)
-                                    .bold()
-                                    .padding()
-                                Spacer()
-                            }.background(accentColor)
+                            BottomTextView(str: "Ok, let's begin!")
                         }
                     )
                 }
