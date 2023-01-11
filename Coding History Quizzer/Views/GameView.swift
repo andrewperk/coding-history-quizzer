@@ -19,27 +19,12 @@ struct GameView: View {
     var body: some View {
         ZStack {
             GameColor.main.ignoresSafeArea()
-            
             VStack {
                 Text(viewModel.questionProgressText)
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding()
-                Text(question.questionText)
-                    .font(.largeTitle)
-                    .bold()
-                    .multilineTextAlignment(.leading)
-                Spacer()
-                
-                HStack {
-                    ForEach(0..<question.possibleAnswers.count, id: \.self) { answerIndex in
-                        Button(action: {
-                            print("Tapped an option with the text: \(question.possibleAnswers[answerIndex])")
-                        }, label: {
-                            ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
-                        })
-                    }
-                }
+                QuestionView(question: viewModel.currentQuestion)
             }
         }
         .foregroundColor(.white)
