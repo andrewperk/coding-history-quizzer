@@ -8,11 +8,6 @@
 import SwiftUI
 
 struct GameView: View {
-    let question: Question = Question(
-        questionText: "What was the first computer bug?",
-        possibleAnswers: ["Ant", "Beetle", "Moth", "Fly"],
-        correctAnswerIndex: 2
-    )
     
     @StateObject var viewModel = GameViewModel()
     
