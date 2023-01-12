@@ -19,7 +19,7 @@ struct Question: Hashable { // Add Hashable Conformance
                     "Steve Jobs",
                     "Linus Torvalds",
                     "Bill Gates",
-                    "Tim Berners-Lee"
+                    "Tim B.-Lee"
                  ],
                  correctAnswerIndex: 3),
         Question(questionText: "What was the first object oriented programming language?",
@@ -29,6 +29,30 @@ struct Question: Hashable { // Add Hashable Conformance
                     "Swift",
                     "C"
                  ],
-                 correctAnswerIndex: 0)
+                 correctAnswerIndex: 0),
+        Question(questionText: "Who invented FORTRAN?",
+                 possibleAnswers: [
+                    "IBM",
+                    "Apple",
+                    "John McCarthy",
+                    "Konrad Zuse"
+                 ],
+                 correctAnswerIndex: 0),
+        Question(questionText: "What year was COBOL released?",
+                 possibleAnswers: [
+                    "2002",
+                    "1943",
+                    "1959",
+                    "1987"
+                 ],
+                 correctAnswerIndex: 2),
+        Question(questionText: "Which programming language was developed in the 1990s?",
+                 possibleAnswers: [
+                    "C++",
+                    "Ruby",
+                    "Swift",
+                    "Pascal"
+                 ],
+                 correctAnswerIndex: 1)
     ]
 }
