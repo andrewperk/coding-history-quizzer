@@ -20,6 +20,7 @@
 		7D99ABB9296F37A500C23B4F /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99ABB8296F37A500C23B4F /* BottomTextView.swift */; };
 		7D99ABBC296F703400C23B4F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99ABBB296F703400C23B4F /* GameViewModel.swift */; };
 		7D99ABBE296F793C00C23B4F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99ABBD296F793C00C23B4F /* QuestionView.swift */; };
+		7D99ABC0296FA3AB00C23B4F /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99ABBF296FA3AB00C23B4F /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7D99ABB8296F37A500C23B4F /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 		7D99ABBB296F703400C23B4F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		7D99ABBD296F793C00C23B4F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		7D99ABBF296FA3AB00C23B4F /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				7D99ABB6296F2D4C00C23B4F /* GameColor.swift */,
 				7D99ABB8296F37A500C23B4F /* BottomTextView.swift */,
 				7D99ABBD296F793C00C23B4F /* QuestionView.swift */,
+				7D99ABBF296FA3AB00C23B4F /* ScoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				7D99AB95296E123E00C23B4F /* Game.swift in Sources */,
 				7D99AB5E29655CC500C23B4F /* GameView.swift in Sources */,
 				7D99ABB9296F37A500C23B4F /* BottomTextView.swift in Sources */,
+				7D99ABC0296FA3AB00C23B4F /* ScoreView.swift in Sources */,
 				7D99ABB7296F2D4C00C23B4F /* GameColor.swift in Sources */,
 				7D99AB93296B682400C23B4F /* ChoiceTextView.swift in Sources */,
 				7D99AB5C29655CC500C23B4F /* Coding_History_QuizzerApp.swift in Sources */,
