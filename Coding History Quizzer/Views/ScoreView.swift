@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ScoreView: View {
+    let viewModel: ScoreViewModel
+    
     var body: some View {
         ZStack {
             GameColor.main.ignoresSafeArea()
@@ -15,19 +17,19 @@ struct ScoreView: View {
                 Spacer()
                 Text("Final Score:")
                     .font(.body)
-                Text("???%")
+                Text("\(viewModel.percentage)%")
                     .font(.system(size: 50))
                     .bold()
                     .padding()
                 Spacer()
                 HStack {
-                    Text("???")
+                    Text("\(viewModel.correctGuesses)")
                     Image(systemName: "checkmark.square.fill")
                         .foregroundStyle(.white, .green)
                 }
                 .font(.system(size: 30))
                 HStack {
-                    Text("???")
+                    Text("\(viewModel.incorrectGuesses)")
                     Image(systemName: "x.square.fill")
                         .foregroundStyle(.black, .red)
                 }
@@ -48,6 +50,6 @@ struct ScoreView: View {
 
 struct ScoreView_Previews: PreviewProvider {
     static var previews: some View {
-        ScoreView()
+        ScoreView(viewModel: ScoreViewModel(correctGuesses: 8, incorrectGuesses: 2))
     }
 }
